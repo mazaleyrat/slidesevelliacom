@@ -1,0 +1,12 @@
+baseURL = 'https://slides.evellia.com/'
+languageCode = 'en-us'
+title = 'Slides Evellia'
+theme = ["github.com/joshed-io/reveal-hugo"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
